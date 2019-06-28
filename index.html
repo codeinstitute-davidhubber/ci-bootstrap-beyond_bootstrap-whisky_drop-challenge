@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Whiskey Drop | Taste a new whiskey every month</title>
+
+	<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/28a9b9e464.js">
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link class="" href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid navalert-container">
+		<div class="container-fluid alert-container">
+			<div class="row d-none d-sm-block">
+				<div class="col-12">
+					<div class="site-wide-alert alert alert-warning">	<strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-dark navbar-expand-sm">	<a class="navbar-brand" href="/">Whiskey Drop</a> 
+			<button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ml-auto" data-target="#navbarNavDropdown" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto">
+					<li class="active nav-item mr-2">	<a class="nav-link" href="/">Home</a>
+					</li>
+					<li class="nav-item mr-2">	<a class="nav-link" href="/about">About</a>
+					</li>
+					<li class="nav-item dropdown">	<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink" role="button">Whiskeys</a>
+						<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">	<a class="dropdown-item" href="#">Irish</a>  <a class="dropdown-item" href="#">Scotch</a>  <a class="dropdown-item" href="#">Japanese</a>  <a class="dropdown-item" href="#">American</a>
+						</div>
+					</li>
+					<li class="nav-item mr-2 d-block d-sm-none">	<a class="nav-link" href="/login">Sign In / Sign Up</a>
+					</li>
+				</ul>
+			</div>
+			<div class="d-none d-md-block">
+				<p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i>
+				</p><a class="btn btn--cta btn--red" href="/login">Sign In / Sign Up</a>
+			</div>
+		</nav>
+	</div>
+<div class="container-fluid callout-container d-block d-md-none">
+		<!-- Callout -->
+		<div class="opaque-overlay">
+			&nbsp;
+		</div>
+		<div class="row h-100 justify-content-center align-items-center">
+			<div class="col-12">
+				<section class="callout jumbotron text-center">
+					<h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+					<hr class="block-divider block-divider--orange">
+					<p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="d-none d-sm-inline">€19.99</s> <span class="d-inline d-sm-none"><br></span> <strong><mark>First one is free!</mark></strong></p><button class="btn btn-lg btn--cta btn--red" data-target="#signUpModal" data-toggle="modal">Sign Up!</button>
+					<p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
+				</section>
+			</div>
+		</div><!-- /.callout -->
+	</div>
+	<div class="container-fluid whiskeyCarousel-container d-none d-md-block">
+		<!-- Callout -->
+		<div class="row h-100 justify-content-center align-items-center">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="images/carousel/slide0.jpg" alt="First slide">
+						<div class="carousel-caption d-none d-md-block whiskyWelcome">
+							<h5 class="rounded shadow d-none d-lg-block">Welcome to Whisky Drop</h5>
+							<p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="d-none d-sm-inline">€19.99</s>
+								<br>
+								<br> <strong><mark class="rounded shadow m-1 px-3">First one is free!</mark></strong><small><br>Please, drink responsibly.</small>
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img class="d-block w-100" src="images/carousel/slide1.jpg" alt="First slide">
+							<div class="carousel-caption d-none d-md-block">
+								<h5 class="rounded shadow">Lagavulin 16 Year Old</h5>
+								<p>Scotland</p>
+						</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img class="d-block w-100" src="images/carousel/slide2.jpg" alt="Second slide">
+							<div class="carousel-caption d-none d-md-block">
+								<h5 class="rounded shadow">Sazerac Straight Rye</h5>
+								<p>America</p>
+						</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img class="d-block w-100" src="images/carousel/slide3.jpg" alt="Third slide">
+							<div class="carousel-caption d-none d-md-block">
+								<h5 class="rounded shadow">Hibiki Japanese Harmony</h5>
+								<p>Japan</p>
+						</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img class="d-block w-100" src="images/carousel/slide4.jpg" alt="Fourth slide">
+							<div class="carousel-caption d-none d-md-block">
+								<h5 class="rounded shadow">Proper No. Twelve</h5>
+								<p>Ireland</p>
+						</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img class="d-block w-100" src="images/carousel/slide5.jpg" alt="Fourth slide">
+							<div class="carousel-caption d-none d-md-block">
+								<h5 class="rounded shadow">Motörhead Whisky</h5>
+								<p>Sweden</p>
+						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.callout -->
+	</div>
+	<!-- Quotes -->
+	<div class="container-wrapper">
+		<div class="container quotes-container content-container">
+			<section class="quotes">
+				<div class="row">
+					<div class="col-12 page-header">
+						<h2 class="text-uppercase">Quotes:</h2>
+						<hr class="block-divider block-divider--short">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div class="media">
+							<div class="d-none d-sm-block">
+								<img class="rounded-circle mr-3" height="100" src="images/girl-image.png" width="100">
+							</div>
+							<div class="media-body">
+								<blockquote class="blockquote">
+									<p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+									<p>- Jane Doe</p>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="media">
+							<div class="d-none d-sm-block">
+								<img class="rounded-circle mr-3" height="100" src="images/guy-image.png" width="100">
+							</div>
+							<div class="media-body">
+								<blockquote class="blockquote">
+									<p>I haven't been sober for months!</p>
+									<p>- Jane Doe</p>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.quotes -->
+		</div>
+	</div>
+	<!-- Features -->
+	<div class="container-wrapper container-wrapper--red">
+		<div class="container features-container content-container">
+			<section class="features">
+				<div class="row">
+					<div class="col-12 page-header">
+						<h2 class="text-uppercase">Features:</h2>
+						<hr class="block-divider block-divider--short block-divider--white">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="feature">
+							<h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p><a class="btn btn-sm btn-light" href="">Read More</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="feature">
+							<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p><a class="btn btn-sm btn-light" href="">Read More</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-12 d-md-none d-lg-block col-lg-4">
+						<div class="feature">
+							<h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p><a class="btn btn-sm btn-light" href="">Read More</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.features -->
+		</div>
+	</div>
+	<!-- Table ==
+        <hr>
+        <section class="whiskeyTable mb-5">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h2 class="text-uppercase">Monthly Favorites</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <h4 class="text-muted">Our top five whiskeys of the month</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row table table-responsive">
+                <div class="col-12">
+                    <table class="col-12 col-lg-6 table-striped">
+                        <div class="table table-resposive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Origin</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Lagavulin 16 Year Old</td>
+                                    <td>Scotland</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Sazerac Straight Rye</td>
+                                    <td>America</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Hibiki Japanese Harmony</td>
+                                    <td>Japan</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Proper No. Twelve</td>
+                                    <td>Ireland</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Motörhead Whisky</td>
+                                    <td>Sweden</td>
+                                </tr>
+                            </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!== /.table -->
+	<div class="modal" id="signUpModal" role="dialog" tabindex="-1">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Sign Up To Whiskey Drop!</h5>
+					<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email"> <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input class="form-control" id="password" placeholder="Password" type="password">
+						</div>
+						<div class="form-group">
+							<label for="repeatPassword">Repeat Password</label>
+							<input class="form-control" id="repeatPassword" placeholder="Repeat Password" type="password">
+						</div>
+						<button class="btn btn-success" type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script>
+	<script crossorigin="anonymous" integrity="sha256-1XfFQxRfNvDJW3FdZ+xlo2SbodG2+rFArw6XsVzu3bc=" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js">
+	</script>
+	<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	</script>
+</body>
+
+</html>

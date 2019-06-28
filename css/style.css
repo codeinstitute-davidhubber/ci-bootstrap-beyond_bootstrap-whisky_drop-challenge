@@ -1,0 +1,301 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Containers */
+
+.container-wrapper--red
+{
+    color: white;
+    background-color: #f05f40;
+}
+
+
+
+.callout-container
+{
+    position: relative;
+
+    display: flex;
+
+    height: 100vh;
+
+    background: url('../images/whiskey-background-1.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.opaque-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.content-container
+{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.carousel-indicators li
+{
+    box-sizing: content-box;
+    width: 50px;
+    height: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+
+    cursor: pointer;
+    transition: opacity .6s ease;
+    text-indent: -999px;
+
+    opacity: .5;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    background-color: rgba(250,237,209,1.00);
+    background-clip: padding-box;
+
+    -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+}
+
+.carousel-indicators .active
+{
+    opacity: 1;
+    background-color: #f05f40;
+}
+
+
+
+.carousel-caption a
+{
+    color: rgba(250,237,209,1.00);
+}
+
+.carousel-caption h5
+{
+    font-size: 220%;
+
+    padding: 15px 15px 22px;
+
+    text-align: center ;
+    text-decoration: underline;
+
+    color: rgba(250,237,209,1.00);;
+    background-color: rgba(240,95,64,.5);
+    font-weight:700;
+}
+
+.carousel-caption p
+{
+    font-size: 150%;
+    line-height: 2rem;
+}
+
+/* Navbar */
+
+.navalert-container
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar
+{
+    width: 100%;
+    margin-bottom: 0;
+
+    border: 0;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler
+{
+    border: 0;
+}
+
+.navbar .navbar-brand
+{
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a
+{
+    font-weight: bold;
+}
+
+/* Jumbotron */
+
+.jumbotron
+{
+    background-color: transparent;
+}
+
+.jumbotron h1
+{
+    font-weight: bold;
+
+    margin-bottom: 30px;
+
+    color: white;
+    color: white;
+}
+
+.jumbotron .lead
+{
+    margin: 25px 0;
+
+    color: #a7a7a7;
+}
+
+.jumbotron small
+{
+    font-size: 60%;
+    font-style: italic;
+
+    color: #d0d0d0;
+}
+
+/* Block dividers */
+
+.block-divider
+{
+    width: 75px;
+    height: 5px;
+
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange
+{
+    background-color: #f05f40;
+}
+
+.block-divider--white
+{
+    background-color: white;
+}
+
+.block-divider--short
+{
+    width: 35px;
+}
+
+/* Buttons */
+
+.btn--cta
+{
+    font-weight: bold;
+
+    width: 160px;
+
+    border-radius: 23px;
+}
+
+.btn--red
+{
+    color: white;
+    border-color: #f05f40;
+    background-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus
+{
+    color: white;
+    border-color: #df4929;
+    background-color: #df4929;
+}
+
+/* Alert */
+
+.alert-container .col-12
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.site-wide-alert
+{
+    margin-bottom: 0;
+    padding: 5px 15px;
+
+    color: #544600;
+    border: 1px solid transparent;
+    border-color: #eec802;
+    border-radius: 0;
+    background-color: #eec802;
+}
+
+/* Page Headers */
+
+.page-header
+{
+    margin-bottom: 0;
+
+    text-align: center;
+
+    border-bottom: 0;
+}
+
+.page-header h2
+{
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quotes .page-header
+{
+    margin-bottom: 25px;
+}
+
+/* Features */
+
+.feature
+{
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.feature i
+{
+    font-size: 45px;
+    line-height: 45px;
+
+    margin-bottom: 20px;
+}
+
+.feature .btn
+{
+    font-weight: bold;
+
+    min-width: 100px;
+    margin-top: 10px;
+
+    color: #f05f40;
+    border-color: white;
+    border-radius: 15px;
+    background-color: white;
+}
