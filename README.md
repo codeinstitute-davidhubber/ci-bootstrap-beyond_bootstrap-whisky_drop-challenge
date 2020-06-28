@@ -21,7 +21,7 @@ Whisky Drop - Challenge
 
 ## Project URL
 
-**'https://davidhubber.github.io/ci-bootstrap-beyond_bootstrap-whisky_drop-challenge/'**
+**'https://codeinstitute-davidhubber.github.io/ci-bootstrap-beyond_bootstrap-whisky_drop-challenge/'**
 
 
 ## Description
